@@ -15,7 +15,7 @@ The panel adds four buttons:
 ## What was fixed
 
 On After Effects 26 / Beta, the layer-creating buttons trimmed new layers at the
-**start** but not the **end** — the layer would run long past where it should stop.
+**start** but not the **end** the layer would run long past where it should stop.
 
 The cause: the original script positioned layers by setting the `inPoint` property.
 On this build, setting `inPoint` **slides the entire layer** (it drags `outPoint`
